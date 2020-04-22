@@ -1,6 +1,6 @@
 <template>
   <div>
-    <el-table v-loading="loading" :data="playlist" stripe>
+    <el-table v-loading="loading" :data="playlist" stripe  height="690">
       <el-table-column type="index" width="50"></el-table-column>
       <el-table-column label="封面" width="100">
         <template slot-scope="scope">

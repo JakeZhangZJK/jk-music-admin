@@ -36,7 +36,7 @@ export const constantRoutes = [
       {
         path: 'list',
         // name: 'List',
-        component: () => import('@/views/playlist/playlist'),
+        component: () => import('@/views/playlist/list'),
         meta: { title: '歌单管理', icon: 'nested' }
       },
       {
@@ -54,7 +54,7 @@ export const constantRoutes = [
     children: [
       {
         path: 'list',
-        component: () => import('@/views/blog/blog'),
+        component: () => import('@/views/blog/list'),
         meta: { title: '博客管理', icon: 'form' }
       }
     ]
@@ -65,7 +65,7 @@ export const constantRoutes = [
     children: [
       {
         path: 'list',
-        component: () => import('@/views/swiper/swiper'),
+        component: () => import('@/views/swiper/list'),
         meta: { title: '广告管理', icon: 'example' }
       }
     ]
